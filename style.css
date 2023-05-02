@@ -1,0 +1,96 @@
+body {
+    font-family: "roboto" sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header {
+
+    background-color: #1F2937;
+    color: #F9FAF8;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header.logo {
+
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+
+.hero {
+
+    background-color: #1F2937;
+    color: #F9FAF8;
+
+    display: flex;
+
+}
+
+.hero.main {
+
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+
+}
+
+.hero.button {
+    background-color: #3882F6;
+}
+
+.information {
+
+
+
+}
+
+.information.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info {
+
+    display: flex;
+
+}
+
+.quote {
+
+    background-color: #E5E7EB;
+
+}
+
+.quote.text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937 
+}
+
+.footer {
+
+
+
+}
